@@ -1,0 +1,10 @@
+In this project, a MySql Database was created on Azure, with data inserted and integrated with Power BI. ETL was performed to transform the data into fact and dimension tables for improved performance in creating relationships and metrics for coherent data analysis. Tables created include:
+
+	dCalendar: Created in DAX language using "CALENDARAUTO()".
+	dDept: Dimension table for department data, created with a SQL query.
+	dProject: Dimension table for project data.
+	dManagers: Dimension table for managers associated with departments and projects, created with a SQL query.
+	dEmployees: Table for employee information, created with a SQL query.
+	fWorkson: Fact table for employee data, hours, and salary, created with SQL queries and data manipulation steps.
+
+These were the ETL steps in the project, from database creation in Azure to data loading for report creation.
